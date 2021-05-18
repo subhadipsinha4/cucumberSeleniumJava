@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="16.986">
+<testcase classname="Home page" name="test Add to cart button in home page" time="16.762">
+<system-out><![CDATA[Given Home page url "https://www.miniaturemarket.com/"......................passed
+When Click add to cart button from product..................................passed
+Then Click on cart..........................................................passed
+And validate the product from cart..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

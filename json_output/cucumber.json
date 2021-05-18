@@ -1,0 +1,105 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-16T10:19:08.644Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10743000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepsDefinations.homePageStepsDefinations.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "test Add to cart button in home page",
+        "description": "",
+        "id": "home-page;test-add-to-cart-button-in-home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 4175000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepsDefinations.homePageStepsDefinations.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Home page url \"https://www.miniaturemarket.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.miniaturemarket.com/\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepsDefinations.homePageStepsDefinations.home_page_url(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 142000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Click add to cart button from product",
+            "match": {
+              "location": "stepsDefinations.homePageStepsDefinations.click_add_to_cart_button_from_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 60000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Click on cart",
+            "match": {
+              "location": "stepsDefinations.homePageStepsDefinations.click_on_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1555000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "validate the product from cart",
+            "match": {
+              "location": "stepsDefinations.homePageStepsDefinations.validate_the_product()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Home page",
+    "description": "",
+    "id": "home-page",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/Features/homePage.feature",
+    "tags": []
+  }
+]
