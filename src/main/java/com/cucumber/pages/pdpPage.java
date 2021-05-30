@@ -28,7 +28,7 @@ public class pdpPage extends baseTest {
     @FindBy(xpath = "//h1[@class='product-name']")
     public WebElement productTitlePDP;
     @FindBy(xpath = "//div[@class='actions']//a[text()='View Shopping Cart']")
-    public WebElement clickCartPageButton;
+    public static WebElement clickCartPageButton;
 
     @FindBy(xpath = "//a[text()='Cart']")
     public WebElement pdpPageCart;

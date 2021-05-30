@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         glue = {"stepsDefinations"},
         plugin = {"pretty","html:test-outout"},
         dryRun = false,
-        tags =""
+        tags ="@Test"
 )
 
 public class TestRunner{

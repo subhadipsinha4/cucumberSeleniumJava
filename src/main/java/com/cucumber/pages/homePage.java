@@ -17,7 +17,7 @@ public class homePage extends baseTest {
     @FindBy(xpath = "//a[text()='Wishlist']")
     public WebElement homeWishListTitle;
     @FindBy(xpath = "//a[text()='Cart']")
-    public WebElement homePageCart;
+    public static WebElement homePageCart;
     @FindBy(xpath = "//h2[@class='block-title']")
     public WebElement homePageNewArrival;
     public String homePageNewAr="New Arrivals";

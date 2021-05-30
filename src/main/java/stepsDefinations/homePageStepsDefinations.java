@@ -119,6 +119,23 @@ public class homePageStepsDefinations extends baseTest {
     public void validate_product_is_deleted_or_not() {
         cartpage.validateDeleteMessage();
     }
+
+    @Then("Click add to cart button from SRP for more that one product")
+    public void click_add_to_cart_button_from_srp_for_more_that_one_product() throws InterruptedException {
+        searchpage.addedMoreThanOneProduct();
+    }
+    @Then("Click on cart icon and go to the cart page")
+    public void click_on_cart_icon_and_go_to_the_cart_page() throws IOException, InterruptedException {
+           cartpage=searchpage.clickAndGoToCart();
+    }
+//    @Then("delete all product one by one form cart list")
+//    public void delete_all_product_one_by_one_form_cart_list() {
+//
+//    }
+//    @Then("validate all products are deleted or not")
+//    public void validate_all_products_are_deleted_or_not() {
+//
+//    }
     @After
     public void tearDown()
     { driver.close(); }

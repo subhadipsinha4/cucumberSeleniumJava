@@ -46,11 +46,11 @@ Feature: Home page
     Then click on delete icon form cart list
     Then validate product is deleted or not
 
-#    Scenario: Test delete all button in cart page
-#      Given Home page url "https://www.miniaturemarket.com/"
-#      When Search query and go to the SRP
-#      Then Click add to cart button from SRP for more that one product
-#      Then Click on cart icon and validate the product
-#      Then go to the cart page
-#      Then click on delete icon form cart list
-#      Then validate product is deleted or not
+    @Test
+    Scenario: Test delete all button in cart page
+      Given Home page url "https://www.miniaturemarket.com/"
+      When Search query and go to the SRP
+      Then Click add to cart button from SRP for more that one product
+      Then Click on cart icon and go to the cart page
+#      Then delete all product one by one form cart list
+#      Then validate all products are deleted or not
